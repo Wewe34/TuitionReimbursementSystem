@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://image.freepik.com/free-photo/ice-cream-concept-with-copyspace-right_23-2147811025.jpg);
+
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  color: rgb(235, 230, 230);
+}
+
+#root{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(https://img.freepik.com/free-photo/ice-cream-concept-with-copyspace-top_23-2147811019.jpg?size=338&ext=jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#logout {
+  cursor: pointer;
+}
+
+#login {
+color: rgb(48, 33, 33);
+background-color: whitesmoke;
+display: flex;
+justify-content: center;
+}
+
+#header {
+  color: white;
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+#loginInput{
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-control {
+  border: 2px solid black;
+}
+
+#logo{
+  color: rgb(255, 255, 252);
+  font-size: 75px;
+  margin-bottom: 0px;
+}
+
+#trs {
+  color: rgb(236, 160, 160);
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0px;
+}
+
+#slogan {
+  color: #CAFFBF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#about {
+  color: #f6f6f6;
+  width: 500px;
+}
+
+#welcome {
+  margin-bottom: 0;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.buttonO:hover{
+  background-color: #A0C4FF;
+}
+
+#userImg{
+  width: 90px;
+  height: 90px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+
+#availReim{
+  font-size: large;
+}
+
+.nav{
+  color: #480ca8;
+  font-weight: bold;
+}
+
+.nav:hover{
+  background-color: #A0C4FF;
+}
+
+.navContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+#userHomeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+#notificationCenterContainer{
+  color: black;
+  overflow-y: scroll;
+  height: 60%;
+  background-color: rgb(255, 255, 252);
+  width: 101%;
+  height: 100%;
+;}
+
+#notification{
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+
+table {
+  text-align: left;
+  width: 1000px;
+  height: 100%;
+}
+
+td {
+  width: 250px;
+  overflow-x: scroll;
+}
+#empInfo, #evtInfo1, #describe{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#evtInfo2, #evtInfo3, #gradeFormat{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+#tform{
+  overflow:scroll;
+  overflow-x: hidden;
+  color: black;
+  padding: 30px;
+  height: 35%;
+  background-color: #fefae0;
+}
+
+legend {
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#toSub{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#cost, #name{
+  display: flex;
+}
+
+#attachments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#requestView {
+  display: flex;
+  flex-direction: column;
+}
+
+#req {
+  display: flex;
+  justify-content: center;
+  background-color: #d8f3dc;
+  color: black;
+}
+
+.spanLabel {
+  color:#480ca8;
+  font-weight: bold;
+}
+
+#notificationOptions{
+  background-color: black;
+}
+
+#notView{
+  height: 50%;
+  overflow: scroll;
+  background-color: rgb(236, 160, 160);
+}
+
+#exceeding{
+  color: red;
+}
+
+.goBack{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.goBack:hover{
+  color: #480ca8;
+}
+
+#notificationC{
+  color: black;
+}
+
+#email{
+  padding: 10px;
+  margin-bottom: 20px;
+}
