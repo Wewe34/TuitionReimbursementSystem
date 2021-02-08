@@ -3,12 +3,11 @@ TRMS, or Tuition Reimbursement Management System is a full-stack web application
 
 # Technologies 
 JavaScript, Express.js, DynamoDB, React, HTML, CSS, Redux, TypeScript
-AWS: DynamoDB
 
 # Getting Started
-git clone https://github.com/Wewe34/TuitionReimbursementSystem.git
-
 **You will need an AWS account and DynamoDB.
+
+git clone https://github.com/Wewe34/TuitionReimbursementSystem.git
 
 frontend-cassie-creamery folder:
 1) npm install
